@@ -1,0 +1,25 @@
+#include "menu.h"
+
+IDR_MENU MENU
+{
+	POPUP "&File"
+	{
+		MENUITEM "&About",	IDM_ABOUT
+		MENUITEM "E&xit",	IDM_EXIT
+	}
+
+	POPUP "&Color"
+	{
+		MENUITEM "&White",	IDM_WHITE
+		MENUITEM "&Gray",	IDM_GRAY
+		MENUITEM "&Black",	IDM_BLACK
+	}
+
+		MENUITEM "&Help",	IDM_HELP
+}	
+
+
+IDI_ICON	   ICON "alice.ico"
+IDI_CURSOR     CURSOR "ishida.cur"
+
+
