@@ -3,7 +3,7 @@ Programming Style Guideline
 
 The style for writing is CamelCase.
 
-**The name of variables: **
+**The name of variables:**
 *	document their meaning
 *	start with lower case 
 *	variables with short scope have short names (i, j, m, n)
