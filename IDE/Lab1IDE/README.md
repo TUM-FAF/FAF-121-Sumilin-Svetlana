@@ -4,13 +4,13 @@ Laboratory Work №1
 The purpose of this laboratory work was to learn Command Line Interface; CLI Editors; Setting Server Environment; Version Control Systems
 
 
-Connect to a remote server via SSH
+### Connect to a remote server via SSH
 SSH – secure shell, a command interface for getting access to a remote computed secured. I connected using GitBash, run ssh usernme@IP line to connect.
 Tried commands like: mkdir – that created a directory, ls- to see all files, cd\cd dir – change the directory, rm file- delete files, touch file- to create.
-Initialize a repository on server
+### Initialize a repository on server
 I used git init command that created a new repository on Git. That is the first command to run for a first project.
 
-Create a file in repository folder, write in your name, save it and commit it
+### Create a file in repository folder, write in your name, save it and commit it
 ``` sh
 mkdir Sumilin   		# folder created
 vim file.txt   			# create a txt file              
@@ -22,7 +22,7 @@ git commit -m "Blah Blah Blah"# comments when commited
 ```
 
 Tasks With Points
-Create your own server (ex. virtual machine)
+### Create your own server (ex. virtual machine)
 Used VMware Workstation for Ubuntu.
 
 ``` sh
@@ -33,7 +33,7 @@ sudo service ssh stop			#stop server
 
 Connect to server using public key
 
-Create 2 more branches with at least one unique committed file per branch
+### Create 2 more branches with at least one unique committed file per branch
 
 git add <file> - stage all changes, and in next commit they will be seen.
 git commit – commits to the “history”. Files won’t change unless we ask it (sometimes we use a commit message).
@@ -55,7 +55,7 @@ git commit –m “second”		# commit with comment
 ``` 
 
 
-Set a branch to track a remote origin on which you are able to push (ex. github, bitbucket or a custom server)
+### Set a branch to track a remote origin on which you are able to push (ex. github, bitbucket or a custom server)
 
 ``` sh
 git remote add origin <url> #add new remote, now we use origin instead of link 
@@ -65,7 +65,7 @@ git push –u origin master   #push the commits in the local branch named master
 -u - means that for every branch that is up to date or successfully pushed, add tracking reference. It should be done just for first push to repository.
 
 
-Reset a branch to previous commit, reset a branch to some specific commit
+### Reset a branch to previous commit, reset a branch to some specific commit
 
 ``` sh
 git reset <file>     # remove specific file 
@@ -81,7 +81,7 @@ It is used to throw uncommitted changes.
 
 
 
-Restore a reset branch back to its previous state
+### Restore a reset branch back to its previous state
 
 ``` sh
 git reflog			        #shows history
@@ -91,7 +91,7 @@ git reset --hard 11bbf2 	#do a reset to the needed commit
 git reflog  - works just for a certain amount of time because Git cleans reflog sometimes. It retrieves a list of commits and actions done.
 
     	 
-GIT cherry-pick, rebase
+### GIT cherry-pick, rebase
 ``` sh
 git checkout -b third 		# move to branch
 touch file3.txt				# create file
@@ -106,13 +106,13 @@ When we lose something or destroy the wrong commit, we can restore it using git 
 Difference between the rebase and cherry-pick: cherry-pick takes just one commit (sometimes a few of them) and move to a new location. Rebase take all changes on a branch and replay it to another branch.
 
 
-Make your CLI text editor to highlight code
+### Make your CLI text editor to highlight code
 
 First I opened a .txt file: vim sveta.txt
 Then I typed some text (code). Pressed Esc and wrote :syntax on
 
 
-Create a VCS alias
+### Create a VCS alias
 
 These two are some good shortcuts:
 ``` sh
