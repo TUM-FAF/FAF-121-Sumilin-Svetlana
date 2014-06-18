@@ -5,12 +5,12 @@ Web development
 First I Installed VMware Workstation for Ubuntu.
 Installed rails: $ gem install rails
 
-Created my new Application: ``` sh $ rails new blog ``` 
-Made my Application server running: ``` sh $ rails server``` 
+Created my new Application: ```  $ rails new blog ``` 
+Made my Application server running: ``` $ rails server``` 
 
-I was checking my progress by navigating to: ``` sh http://localhost:3000.``` 
+I was checking my progress by navigating to: ```  http://localhost:3000.``` 
 
-To make a hello page I used:  ``` sh $ rails generate controller welcome index``` sh
+To make a hello page I used:  ```  $ rails generate controller welcome index``` sh
 and in index.html.erb file I have written my name.
 
 Then I made it able to create some articles 
