@@ -9,15 +9,16 @@ SSH – secure shell, a command interface for getting access to a remote compute
 Tried commands like: mkdir – that created a directory, ls- to see all files, cd\cd dir – change the directory, rm file- delete files, touch file- to create.
 Initialize a repository on server
 I used git init command that created a new repository on Git. That is the first command to run for a first project.
+``` sh
 Create a file in repository folder, write in your name, save it and commit it
-mkdir Sumilin   		// folder created
-vim file.txt   			// create a txt file              
-i              			// insert needed text              
-Svetlana Sumilin		// text written
-:wq                    	// write the text and exit       
-git add file.txt   		// add just this .txt to folder        
-git commit -m "Blah Blah Blah"// comments when commited
-
+mkdir Sumilin   		# folder created
+vim file.txt   			# create a txt file              
+i              			# insert needed text              
+Svetlana Sumilin		# text written
+:wq                    	# write the text and exit       
+git add file.txt   		# add just this .txt to folder        
+git commit -m "Blah Blah Blah"# comments when commited
+```
 
 Tasks With Points
 Create your own server (ex. virtual machine)
