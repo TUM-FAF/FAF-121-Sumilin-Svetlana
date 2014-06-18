@@ -43,7 +43,7 @@ int WINAPI WinMain (HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR szCmdLine
 	
 	hWnd = CreateWindow (szAppName,
 						TEXT ("Second of Sveta"),
-						WS_OVERLAPPEDWINDOW,
+						WS_OVERLAPPEDWINDOW|WS_HSCROLL,
 						100,
 						50,
 						600,

@@ -138,5 +138,15 @@ namespace Lab6
             }
         }
 
+        private void button8_Click(object sender, EventArgs e)
+        {
+            listBox2.Items.RemoveAt(listBox2.SelectedIndex);
+        }
+
+        private void itemToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }
