@@ -1,0 +1,8 @@
+﻿<Window x:Class="WpfApplication1.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="UseIt" Height="350" Width="527" Icon="pppp.png" ResizeMode="NoResize">
+    <Grid>
+        
+    </Grid>
+</Window>
