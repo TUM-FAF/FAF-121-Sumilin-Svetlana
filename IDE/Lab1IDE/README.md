@@ -10,13 +10,13 @@ Tried commands like: mkdir – that created a directory, ls- to see all files, c
 Initialize a repository on server
 I used git init command that created a new repository on Git. That is the first command to run for a first project.
 Create a file in repository folder, write in your name, save it and commit it
-mkdir Sumilin   		# folder created
-vim file.txt   			# create a txt file              
-i              			# insert needed text              
-Svetlana Sumilin		# text written
-:wq                    	# write the text and exit       
-git add file.txt   		# add just this .txt to folder        
-git commit -m "Blah Blah Blah"# comments when commited
+mkdir Sumilin   		// folder created
+vim file.txt   			// create a txt file              
+i              			// insert needed text              
+Svetlana Sumilin		// text written
+:wq                    	// write the text and exit       
+git add file.txt   		// add just this .txt to folder        
+git commit -m "Blah Blah Blah"// comments when commited
 
 
 Tasks With Points
@@ -36,16 +36,16 @@ git branch – list all branches in repository
 git branch <name> - create a new branch
 git branch –d <name> - delete this branch
 git checkout <name> - choose the current branch to be <name>
-git branch first		# create one branch
-git branch second		# create second branch
-git checkout first		# move to first branch
-git touch file.txt		# create new file
-git add file.txt		# add this file
-git commit –m ”first”		# commit with comment
-git checkout second		# move to second branch
-git touch file2.txt		# create new file
-git add file2.txt		# add this file
-git commit –m “second”		# commit with comment
+git branch first		// create one branch
+git branch second		// create second branch
+git checkout first		// move to first branch
+git touch file.txt		// create new file
+git add file.txt		// add this file
+git commit –m ”first”   // commit with comment
+git checkout second		// move to second branch
+git touch file2.txt		// create new file
+git add file2.txt		// add this file
+git commit –m “second”		// commit with comment
 
 
 
@@ -73,22 +73,22 @@ It is used to throw uncommitted changes.
 
 Restore a reset branch back to its previous state
 
-git reflog			#shows history
-git checkout <branch>		#go to the branch
-git reset --hard 11bbf2 	#do a reset to the needed commit  
+git reflog			//shows history
+git checkout <branch>		//go to the branch
+git reset --hard 11bbf2 	//do a reset to the needed commit  
 
 git reflog  - works just for a certain amount of time because Git cleans reflog sometimes. It retrieves a list of commits and actions done.
 
     	 
 GIT cherry-pick, rebase
 
-git checkout -b third 			#move to branch
-touch file3.txt				#create file
-git add file3.txt			#add file to branch
-git commit -a -m "third"		#commit and comment
-git checkout second			#go to second branch
-git rebase first      			# first branch moves to second
-git cherry-pick third			# apply the commit from third to the current branch		
+git checkout -b third 		//move to branch
+touch file3.txt				//create file
+git add file3.txt			//add file to branch
+git commit -a -m "third"	//commit and comment
+git checkout second			//go to second branch
+git rebase first      			// first branch moves to second
+git cherry-pick third			// apply the commit from third to the current branch		
 
 When we lose something or destroy the wrong commit, we can restore it using git cherry-pick.
 Difference between the rebase and cherry-pick: cherry-pick takes just one commit (sometimes a few of them) and move to a new location. Rebase take all changes on a branch and replay it to another branch.
