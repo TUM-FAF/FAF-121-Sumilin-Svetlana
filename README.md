@@ -11,3 +11,4 @@
 ## Contained courses
 
 * WP
+* IDE
