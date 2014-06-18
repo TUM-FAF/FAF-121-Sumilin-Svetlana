@@ -27,8 +27,9 @@ end
 And changed the article model:
 ``` sh
 $ rails generate model Article title:string text:text
-
+``` 
 And made it to be possible to save the articles
+``` sh
 @article.save
   redirect_to @article
 end
